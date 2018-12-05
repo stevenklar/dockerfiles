@@ -1,0 +1,3 @@
+ansible() { /home/skdo/Code/dockerfiles/ansible/run.sh $@ }
+lpass() { /home/skdo/Code/dockerfiles/lpass/run.sh $@ }
+composer() { /home/skdo/Code/dockerfiles/composer/run.sh $@ }
