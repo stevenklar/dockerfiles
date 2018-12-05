@@ -8,10 +8,6 @@
 * has been auto generated
 * can be everything
 
-Every repository should have a
-* Dockerfile
-* run.sh
-
 ### Build docker image
 
 Example:
@@ -32,3 +28,10 @@ This generates a "generated_bin" file which e. g. I just source in my zsh.rc lik
 
 ## Development
 
+To create a new command just make a new directory with two files
+
+Every directory should have a
+* Dockerfile
+* run.sh
+
+Make sure run.sh has execute (+x) chmod rights.
