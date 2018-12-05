@@ -1,5 +1,4 @@
 #!/bin/sh
-
 # reset generated binary file
 rm -f generated_bin
 touch generated_bin

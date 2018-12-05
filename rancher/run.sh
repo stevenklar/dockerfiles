@@ -1,0 +1,8 @@
+docker run --interactive --rm --tty \
+	--volume $SSH_AUTH_SOCK:/ssh-auth.sock \
+	--volume /etc/passwd:/etc/passwd:ro \
+	--volume /etc/group:/etc/group:ro \
+	--volume /home:/home:ro \
+	--user $(id -u):$(id -g) \
+	--env SSH_AUTH_SOCK=/ssh-auth.sock \
+	stevenklar/rancher $@

@@ -1,3 +1,5 @@
 ansible() { /home/skdo/Code/dockerfiles/ansible/run.sh $@ }
+glances() { /home/skdo/Code/dockerfiles/glances/run.sh $@ }
 lpass() { /home/skdo/Code/dockerfiles/lpass/run.sh $@ }
+rancher() { /home/skdo/Code/dockerfiles/rancher/run.sh $@ }
 composer() { /home/skdo/Code/dockerfiles/composer/run.sh $@ }
